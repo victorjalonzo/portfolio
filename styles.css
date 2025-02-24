@@ -380,6 +380,7 @@ body {
   .profile-info {
     flex-direction: column;
     text-align: center;
+    gap: 2rem;
   }
 
   .glitch {
