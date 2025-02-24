@@ -383,6 +383,11 @@ body {
     gap: 2rem;
   }
 
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+
   .glitch {
     font-size: 2.5rem;
   }
