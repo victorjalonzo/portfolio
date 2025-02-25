@@ -93,8 +93,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const typingElement = document.querySelector(".typing")
   const phrases = [
     "Web Developer",
-    "Bot Development Specialist",
-    "UI/UX Enthusiast",
+    "MERN Stack Developer",
+    "MEAN Stack Developer",
+    "LAMP Stack Developer",
+    "Bot Developer",
   ]
   let phraseIndex = 0
   let charIndex = 0
