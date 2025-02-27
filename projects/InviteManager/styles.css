@@ -37,7 +37,7 @@ body {
   background-color: var(--discord-bg);
   color: var(--discord-text);
   line-height: 1.6;
-  background-image: url('https://c4.wallpaperflare.com/wallpaper/217/640/970/technology-discord-wallpaper-preview.jpg');
+  background-image: url('./assets/background.jpg');
   
 }
 
