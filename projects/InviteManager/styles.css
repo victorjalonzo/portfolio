@@ -1,5 +1,4 @@
 :root {
-  /* Colors */
   --discord-primary: #5865f2;
   --discord-primary-hover: #4752c4;
   --discord-bg: #36393f;
@@ -9,24 +8,20 @@
   --discord-text-muted: #b9bbbe;
   --discord-border: #40444b;
 
-  /* Spacing */
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
   --spacing-md: 1.5rem;
   --spacing-lg: 2rem;
   --spacing-xl: 3rem;
 
-  /* Container */
   --container-width: 1200px;
   --container-padding: 2rem;
 
-  /* Border Radius */
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 12px;
 }
 
-/* Reset & Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +37,8 @@ body {
   background-color: var(--discord-bg);
   color: var(--discord-text);
   line-height: 1.6;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/217/640/970/technology-discord-wallpaper-preview.jpg');
+  
 }
 
 img {
@@ -51,14 +48,12 @@ img {
   border: 1px solid var(--discord-border);
 }
 
-/* Container */
 .container {
   max-width: var(--container-width);
   margin: 0 auto;
   padding: 0 var(--container-padding);
 }
 
-/* Navigation */
 .nav {
   background-color: var(--discord-bg);
   padding: var(--spacing-md) 0;
@@ -100,7 +95,6 @@ img {
   color: var(--discord-primary);
 }
 
-/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -138,7 +132,6 @@ img {
   font-size: 1.1rem;
 }
 
-/* Hero Section */
 .hero {
   padding: var(--spacing-xl) 0;
   text-align: center;
@@ -166,7 +159,6 @@ img {
   justify-content: center;
 }
 
-/* Badge */
 .badge {
   background-color: rgba(88, 101, 242, 0.2);
   color: var(--discord-primary);
@@ -176,7 +168,6 @@ img {
   font-weight: 500;
 }
 
-/* Features Section */
 .features {
   padding: var(--spacing-xl) 0;
 }
@@ -193,7 +184,6 @@ img {
   gap: var(--spacing-lg);
 }
 
-/* Cards */
 .card {
   background-color: var(--discord-bg-secondary);
   padding: var(--spacing-lg);
@@ -214,7 +204,6 @@ img {
   color: var(--discord-text-muted);
 }
 
-/* Welcome Section */
 .welcome {
   background-color: var(--discord-bg-secondary);
   padding: var(--spacing-xl) 0;
@@ -248,7 +237,6 @@ img {
   color: var(--discord-primary);
 }
 
-/* Commands Section */
 .commands {
   padding: var(--spacing-xl) 0;
 }
@@ -259,7 +247,6 @@ img {
   font-size: 2.5rem;
 }
 
-/* Tabs */
 .tabs {
   max-width: 900px;
   margin: 0 auto;
@@ -297,7 +284,6 @@ img {
   display: block;
 }
 
-/* Commands Grid */
 .commands__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -331,7 +317,6 @@ img {
   gap: var(--spacing-md);
 }
 
-/* Footer */
 .footer {
   background-color: var(--discord-bg-dark);
   padding: var(--spacing-xl) 0;
@@ -376,7 +361,6 @@ img {
   color: var(--discord-text-muted);
 }
 
-/* Icons */
 .icon {
   font-size: 24px;
 }
@@ -389,15 +373,15 @@ img {
   font-size: 48px;
 }
 
-/* Code */
 code {
   background-color: var(--discord-bg-dark);
   padding: 0.2em 0.4em;
   border-radius: var(--radius-sm);
   font-family: monospace;
+  font-weight: bold;
+  color: #fff
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.5rem;
@@ -428,7 +412,6 @@ code {
   }
 }
 
-/* Animations */
 .fade-out {
   opacity: 0;
   transform: translateY(20px);
