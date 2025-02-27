@@ -1,4 +1,4 @@
-window.onload = () => {
+
   document.getElementById("year").textContent = new Date().getFullYear()
 
   document.addEventListener("DOMContentLoaded", () => {
@@ -57,7 +57,7 @@ window.onload = () => {
       window.location.href = "https://github.com/victorjalonzo/InviteManager"
     })
   }
-}
+
 
 
 
