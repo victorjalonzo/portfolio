@@ -181,7 +181,7 @@ body {
 .neon-card {
   background: var(--card-background);
   border-radius: 20px;
-  padding: 2rem;
+  /*padding: 2rem;*/
   backdrop-filter: blur(10px);
   border: 1px solid rgba(0, 255, 213, 0.1);
   transition: all 0.3s ease;
@@ -262,22 +262,33 @@ body {
   height: 100%;
 }
 
+.project-preview {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 2rem;
+}
+
 .project-header {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
+
 }
 
-.project-icon {
-  font-size: 2rem;
-}
+
 
 .project-tech {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin: 1rem 0;
+
 }
 
 .project-tech span {
